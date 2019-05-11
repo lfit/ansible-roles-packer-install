@@ -1,9 +1,9 @@
 ---
 - name: Fetch Packer
   get_url:
-    url: https://releases.hashicorp.com/packer/{{packer_version}}/packer_{{packer_version}}_linux_amd64.zip
+    url: https://releases.hashicorp.com/packer/{{ packer_version }}/packer_{{ packer_version }}_linux_amd64.zip
     dest: /tmp/packer.zip
-    checksum: '{{packer_checksum}}'
+    checksum: '{{ packer_checksum }}'
 
 - name: Unpack Packer
   unarchive:
