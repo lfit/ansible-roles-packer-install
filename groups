@@ -1,4 +1,5 @@
 # UUID                                                                                     	Group Name
 #
 d68d00a2419f8ff627fc120cf9dd9055ae422153                                                   	GitHub Replication
+eca2ca450c359c3c70b4cd428944f5b02e477a82                                                   	saml/lf-gerrit-ansible-roles-packer-install-committers
 ldap:cn=lf-gerrit-ansible-roles-packer-install-committers,ou=Groups,dc=freestandards,dc=org	ldap/lf-gerrit-ansible-roles-packer-install-committers
