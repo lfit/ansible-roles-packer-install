@@ -16,6 +16,23 @@
       "message": "recheck",
       "revId": "761447e6ca7dacc5b2ffb36d40059f2ba23f608e",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "14bc925e_86d8ce97",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2022-08-24T04:07:49Z",
+      "side": 1,
+      "message": "Seems to be an issue with 14:02:31 {\u0027driver\u0027: [{\u0027name\u0027: [\u0027unallowed value docker\u0027]}]}\ndependency:\n  name: galaxy\ndriver:\n  name: docker",
+      "revId": "761447e6ca7dacc5b2ffb36d40059f2ba23f608e",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ]
 }
