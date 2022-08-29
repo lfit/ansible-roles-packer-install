@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "26ecbcba_605aa2fc",
+        "filename": "tox.ini",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2022-08-29T16:26:57Z",
+      "side": 1,
+      "message": "This probably needs to be set to python3.7 to get all pre-commit modules working correctly",
+      "range": {
+        "startLine": 24,
+        "startChar": 13,
+        "endLine": 24,
+        "endChar": 20
+      },
+      "revId": "6d52c1dcabe06592b7efe516d7c610d46e16d946",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a4e42bb5_d9827a47",
+        "filename": "tox.ini",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2022-08-29T16:26:57Z",
+      "side": 1,
+      "message": "Please see the tox.ini from global-jjb on how to get the commit message pre-commit to work properly. It\u0027s unfortunately rather complicated :(",
+      "revId": "6d52c1dcabe06592b7efe516d7c610d46e16d946",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
