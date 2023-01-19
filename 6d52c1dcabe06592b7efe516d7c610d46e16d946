@@ -39,6 +39,24 @@
       "message": "Please see the tox.ini from global-jjb on how to get the commit message pre-commit to work properly. It\u0027s unfortunately rather complicated :(",
       "revId": "6d52c1dcabe06592b7efe516d7c610d46e16d946",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d38fa633_103f4d01",
+        "filename": "tox.ini",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2023-01-19T23:24:11Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "a4e42bb5_d9827a47",
+      "revId": "6d52c1dcabe06592b7efe516d7c610d46e16d946",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ]
 }
