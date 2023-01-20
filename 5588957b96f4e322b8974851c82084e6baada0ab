@@ -16,6 +16,23 @@
       "message": "recheck",
       "revId": "5588957b96f4e322b8974851c82084e6baada0ab",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b76e6922_37ed3751",
+        "filename": "molecule/default/molecule.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 577
+      },
+      "writtenOn": "2023-01-20T00:18:35Z",
+      "side": 1,
+      "message": "is this change related to the pre-commit deps upgrade?",
+      "revId": "5588957b96f4e322b8974851c82084e6baada0ab",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ]
 }
