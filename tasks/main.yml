@@ -1,19 +1,20 @@
 ---
 - name: Fetch Packer
-  get_url:
+  ansible.builtin.get_url:
     url: https://releases.hashicorp.com/packer/{{ packer_version }}/packer_{{ packer_version }}_linux_amd64.zip
     dest: /tmp/packer.zip
+    mode: 0644
     checksum: '{{ packer_checksum }}'
 
 - name: Unpack Packer
-  unarchive:
+  ansible.builtin.unarchive:
     src: /tmp/packer.zip
     dest: /tmp
     list_files: true
     remote_src: true
 
 - name: Install Packer to /usr/local/bin/packer.io
-  copy:
+  ansible.builtin.copy:
     src: /tmp/packer
     dest: /usr/local/bin/packer
     mode: 0755
