@@ -4,7 +4,9 @@
     url: https://releases.hashicorp.com/packer/{{ packer_version }}/packer_{{ packer_version }}_linux_amd64.zip
     dest: /tmp/packer.zip
     mode: 0644
-    checksum: '{{ packer_checksum }}'
+    checksum: "{{ packer_checksum }}"
+    validate_certs: false
+
 
 - name: Unpack Packer
   ansible.builtin.unarchive:
