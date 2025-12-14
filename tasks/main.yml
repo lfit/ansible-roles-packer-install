@@ -1,11 +1,9 @@
 ---
 - name: Fetch Packer
-  ansible.builtin.get_url:
-    url: https://releases.hashicorp.com/packer/{{ packer_version }}/packer_{{ packer_version }}_linux_amd64.zip
-    dest: /tmp/packer.zip
-    mode: 0644
-    checksum: "{{ packer_checksum }}"
-    validate_certs: false
+  ansible.builtin.command: "curl -fsSL -o /tmp/packer.zip https://releases.hashicorp.com/packer/{{ packer_version }}/packer_{{ packer_version }}_linux_amd64.zip"
+  args:
+    creates: /tmp/packer.zip
+  become: true
 
 
 - name: Unpack Packer
