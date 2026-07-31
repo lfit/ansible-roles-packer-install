@@ -1,0 +1,8 @@
+Verified+1: LFIT GitHub-Gerrit <releng+github-lfit-gerrit@linuxfoundation.org>
+Code-Review+2: Eric Ball <eball@linuxfoundation.org>
+Verified+1: LFIT Required GHA <releng+lfit-required-gha@linuxfoundation.org>
+Submitted-by: Eric Ball <eball@linuxfoundation.org>
+Submitted-at: Fri, 31 Jul 2026 01:16:05 +0000
+Reviewed-on: https://gerrit.linuxfoundation.org/infra/c/ansible/roles/packer-install/+/74570
+Project: ansible/roles/packer-install
+Branch: refs/heads/master
